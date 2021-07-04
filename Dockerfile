@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.10
 RUN echo "Run One Updated"
 RUN echo "RUN TWO"
 CMD echo "Echo From Image"
