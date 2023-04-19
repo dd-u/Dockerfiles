@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 RUN echo "Run One Updated"
 RUN echo "RUN TWO"
 CMD echo "Echo From Image"
